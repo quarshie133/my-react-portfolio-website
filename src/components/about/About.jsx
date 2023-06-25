@@ -27,6 +27,8 @@ const About = () => {
 
             <article className="about__card">
               <FiUsers className="about__icon" />
+              <h5>Clients</h5>
+              <small>20+</small>
             </article>
 
             <article className="about__card">
@@ -34,7 +36,13 @@ const About = () => {
               <h5>Projects</h5>
               <small>40+ Completed</small>
             </article>
-
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Necessitatibus nemo possimus, quasi dicta inventore voluptates
+              repudiandae quod nisi soluta atque enim qui tempora consectetur
+              accusamus asperiores quos aliquid? Quis, ad.
+            </p>
+            <a href="#contact" className="btn btn-primary">Let's Talk</a>
           </div>
         </div>
       </div>
