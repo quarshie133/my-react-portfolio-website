@@ -2,23 +2,7 @@ import React from 'react'
 
 const Portfolio = () => {
   return (
-    <div>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-      <h1>Portofoli</h1>
-
-    </div>
+    <section id='portfolio'>port</section>
   )
 }
 
