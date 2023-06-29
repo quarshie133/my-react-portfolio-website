@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -111,7 +111,7 @@ a:hover {
     display: block;
     width: 100%;
     object-fit: cover;
-}
+}  
 
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
@@ -122,9 +122,9 @@ a:hover {
   section {
      margin-top: 6rem;
   }
-}
+} 
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
-@media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
@@ -132,4 +132,11 @@ a:hover {
   section {
      margin-bottom: 2rem;
   }
+} 
+
+
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  border-bottom: 5px solid black;
 }

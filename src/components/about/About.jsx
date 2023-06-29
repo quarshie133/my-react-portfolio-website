@@ -22,7 +22,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>4+ Years Working</small>
             </article>
 
             <article className="about__card">
@@ -36,14 +36,14 @@ const About = () => {
               <h5>Projects</h5>
               <small>40+ Completed</small>
             </article>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Necessitatibus nemo possimus, quasi dicta inventore voluptates
-              repudiandae quod nisi soluta atque enim qui tempora consectetur
-              accusamus asperiores quos aliquid? Quis, ad.
-            </p>
-            <a href="#contact" className="btn btn-primary">Let's Talk</a>
           </div>
+          <p>
+            Discipline, Hardworking, open to learning and improving. well
+            oriented with understanding in Front-end development.
+          </p>
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
