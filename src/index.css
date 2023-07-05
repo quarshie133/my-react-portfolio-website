@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
---transition: all 400ms ease;
+  --transition: all 400ms ease;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -58,59 +58,60 @@ h1 {
 }
 
 section {
-  margin-top: 8rem; 
+  margin-top: 8rem;
 }
 
-section > h2, section > h5 {
-    text-align: center;
-    color: var(--color-light);
+section > h2,
+section > h5 {
+  text-align: center;
+  color: var(--color-light);
 }
 
 section > h2 {
-    color: var(--color-primary);
-    margin-bottom: 3rem;
+  color: var(--color-primary);
+  margin-bottom: 3rem;
 }
 
 .text-light {
-    color: var(--color-light);
+  color: var(--color-light);
 }
 
 a {
-    color: var(--color-primary);
-    transition: var(--transition);
+  color: var(--color-primary);
+  transition: var(--transition);
 }
 
 a:hover {
-    color: var(--color-white);
+  color: var(--color-white);
 }
 
 .btn {
-    width: max-content;
-    display: inline-block;
-    color: var(--color-primary);
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    border: 1px solid var(--color-primary);
-    transition: var(--transition);
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
 }
 
 .btn:hover {
-    background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent;
+  background: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
 }
 
 .btn-primary {
-    background: var(--color-primary);
-    color: var(--color-bg);
+  background: var(--color-primary);
+  color: var(--color-bg);
 }
 
 .img {
-    display: block;
-    width: 100%;
-    object-fit: cover;
-}  
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
 
 /*============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
 @media screen and (max-width: 1024px) {
@@ -119,20 +120,19 @@ a:hover {
   }
 
   section {
-     margin-top: 6rem;
+    margin-top: 6rem;
   }
-} 
+}
 /*============= MEDIA QUERIES (SMALL DEVICES) =========== */
- @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }
 
   section {
-     margin-bottom: 2rem;
+    margin-bottom: 2rem;
   }
-} 
-
+}
 
 .heading {
   font-size: 50px;
