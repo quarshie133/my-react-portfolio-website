@@ -46,21 +46,22 @@ const Experience = () => {
               <h4>C#</h4>
               <small className="text-light">Intermediate</small>
             </article>
-
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>ASP.NET Framework MVC</h4>
+              <h4>ASP.NET</h4>
               <small className="text-light">Intermediate</small>
             </article>
           </div>
         </div>
+
         {/* END OF FRONTEND */}
+
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill />
-              <h4>Node JS</h4>
+              <h4>NodeJS</h4>
               <small className="text-light">Beginner</small>
             </article>
           </div>
