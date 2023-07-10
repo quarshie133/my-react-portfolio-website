@@ -17,7 +17,10 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Websites</p>
+              <p>
+                Front-End (Delivering seamless user interfaces with expertise in
+                front-end development.)
+              </p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -25,7 +28,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>CMS</p>
+              <p>Websites</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Content Management Systems (Wordpress, Joomla)</p>
             </li>
           </ul>
         </article>

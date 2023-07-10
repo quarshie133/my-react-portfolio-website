@@ -1,6 +1,7 @@
 import IMG1 from "../src/assets/portfolio1.png";
 import IMG2 from "../src/assets/portfolio2.png";
 import IMG3 from "../src/assets/portfolio3.png";
+import IMG4 from "../src/assets/portfolio4.png";
 
 export const data = [
   {
@@ -23,5 +24,12 @@ export const data = [
     title: "Netflix",
     github: "https://github.com/quarshie133/Netflix-Clone",
     demo: "https://react-netflix-clone-9f7bfd.netlify.app/login",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: "Upward Bound Agency",
+    github: "",
+    demo: "https://upwardboundagency.com/",
   },
 ];
