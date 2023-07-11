@@ -11,7 +11,7 @@ const Footer = () => {
         Prince Ephraim Quarshie
       </a>
 
-      <ul className="permalink">
+      <ul className="permalinks">
         <li>
           <a href="#">Home</a>
         </li>
