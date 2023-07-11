@@ -35,13 +35,19 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a
+          href="https://web.facebook.com/prince.wrightsquarshie"
+          target="_blank"
+        >
           <FaFacebookF />
         </a>
-        <a href="https://www.linkedin.com/in/prince-ephraim-quarshie/">
+        <a
+          href="https://www.linkedin.com/in/prince-ephraim-quarshie/"
+          target="_blank"
+        >
           <BsLinkedin />
         </a>
-        <a href="https://github.com/quarshie133">
+        <a href="https://github.com/quarshie133" target="_blank">
           <BsGithub />
         </a>
       </div>
