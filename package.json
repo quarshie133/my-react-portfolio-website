@@ -1,5 +1,6 @@
 {
   "name": "my-react-portfolio-website",
+  "homepage": "https://my-portfolio-f3614e.netlify.app/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
