@@ -3,10 +3,10 @@ import IMG2 from "../src/assets/portfolio2.png";
 import IMG3 from "../src/assets/portfolio3.png";
 import IMG4 from "../src/assets/portfolio4.png";
 
-import Avt1 from "../src/assets/avatar1.jpg";
-import Avt2 from "../src/assets/avatar2.jpg";
-import Avt3 from "../src/assets/avatar3.jpg";
-import Avt4 from "../src/assets/avatar4.jpg";
+import AVTR1 from "../src/assets/avatar1.jpg";
+import AVTR2 from "../src/assets/avatar2.jpg";
+import AVTR3 from "../src/assets/avatar3.jpg";
+import AVTR4 from "../src/assets/avatar4.jpg";
 
 export const data = [
   {
@@ -39,26 +39,26 @@ export const data = [
   },
 ];
 
-export const reveiws = [
+export const reviews = [
   {
-    avatar: Avt1,
+    avatar: AVTR1,
     name: "Mark Oppong",
-    reveiw: "Working with you has been an absolute pleasure, Thank You",
+    review: "Working with you has been an absolute pleasure, Thank You",
   },
   {
-    avatar: Avt2,
+    avatar: AVTR2,
     name: "Silas",
-    reveiw: "Great experience working with you.",
+    review: "Great experience working with you.",
   },
   {
-    avatar: Avt3,
+    avatar: AVTR3,
     name: "Henry",
-    reveiw:
+    review:
       "A wonderful experience was all the help I got from the team. Thanks.",
   },
   {
-    avatar: Avt4,
+    avatar: AVTR4,
     name: "Frank",
-    reveiw: "looking forward to working with you again.",
+    review: "looking forward to working with you again.",
   },
 ];
