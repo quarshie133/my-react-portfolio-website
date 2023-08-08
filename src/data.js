@@ -26,7 +26,7 @@ export const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Netflix",
+    title: "Netflix Clone",
     github: "https://github.com/quarshie133/Netflix-Clone",
     demo: "https://react-netflix-clone-9f7bfd.netlify.app/login",
   },
@@ -34,7 +34,6 @@ export const data = [
     id: 4,
     image: IMG4,
     title: "Upward Bound Agency",
-    github: "",
     demo: "https://upwardboundagency.com/",
   },
 ];
