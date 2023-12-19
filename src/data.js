@@ -4,6 +4,7 @@ import IMG3 from "../src/assets/portfolio3.png";
 import IMG4 from "../src/assets/portfolio4.png";
 import IMG5 from "../src/assets/portfolio5.png";
 import IMG6 from "../src/assets/portfolio6.png";
+import IMG7 from "../src/assets/portfolio7.jpg";
 
 import AVTR1 from "../src/assets/avatar1.jpg";
 import AVTR2 from "../src/assets/avatar2.jpg";
@@ -51,6 +52,13 @@ export const data = [
     title: "ecommerce-product-page",
     github:"https://github.com/quarshie133/Ecommerce-product-page",
     demo: "https://ecommerce-product-page-77srcpsim-quarshie133.vercel.app/",
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: "News App - React Native",
+    github:"https://github.com/quarshie133/News-App-React-Native",
+    demo: "https://github.com/quarshie133/News-App-React-Native",
   },
 ];
 
