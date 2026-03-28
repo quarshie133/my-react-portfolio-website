@@ -1,8 +1,3 @@
-// ============================================================
-// PROJECT DATA
-// To add a new project, copy one of the objects below and
-// append it to the array with a new unique id.
-// ============================================================
 
 export const projects = [
   {
