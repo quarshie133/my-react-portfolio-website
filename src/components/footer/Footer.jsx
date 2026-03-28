@@ -17,7 +17,7 @@ const socials = [
   },
   {
     icon: <BsLinkedin size={17} />,
-    href: "https://www.linkedin.com/in/prince-ephraim-quarshie/",
+    href: "https://www.linkedin.com/in/prince-e-quarshie/",
     label: "LinkedIn",
   },
 ];
@@ -35,7 +35,7 @@ const Footer = () => {
             >
               PEQ<span className="text-primary">.</span>
             </a>
-            <p className="text-sm text-slate-500 mt-1">Frontend Developer</p>
+            <p className="text-sm text-slate-500 mt-1">Full-Stack Software Engineer</p>
           </div>
 
           {/* Nav Links */}

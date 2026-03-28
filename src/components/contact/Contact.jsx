@@ -89,7 +89,7 @@ const Contact = () => {
               <p className="text-sm text-slate-400 mb-4 font-medium uppercase tracking-wider">Connect With Me</p>
               <div className="flex flex-col gap-3">
                 <a
-                  href="https://www.linkedin.com/in/prince-ephraim-quarshie/"
+                  href="https://www.linkedin.com/in/prince-e-quarshie/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-3 p-3 rounded-xl bg-white/5 hover:bg-primary/10 border border-white/5 hover:border-primary/20 text-slate-300 hover:text-primary transition-all duration-200"
