@@ -1,87 +1,26 @@
-import IMG1 from "../src/assets/portfolio1.png";
-import IMG2 from "../src/assets/portfolio2.png";
-import IMG3 from "../src/assets/portfolio3.png";
-import IMG4 from "../src/assets/portfolio4.png";
-import IMG5 from "../src/assets/portfolio5.png";
-import IMG6 from "../src/assets/portfolio6.png";
-import IMG7 from "../src/assets/portfolio7.jpg";
+// ============================================================
+// PROJECT DATA
+// To add a new project, copy one of the objects below and
+// append it to the array with a new unique id.
+// ============================================================
 
-import AVTR1 from "../src/assets/avatar1.jpg";
-import AVTR2 from "../src/assets/avatar2.jpg";
-import AVTR3 from "../src/assets/avatar3.jpg";
-import AVTR4 from "../src/assets/avatar4.jpg";
-
-export const data = [
+export const projects = [
   {
     id: 1,
-    image: IMG1,
-    title: "Cocktails Web App",
-    github: "https://github.com/quarshie133/cocktails-webapp",
-    demo: "https://react-project-cocktails-webapp.netlify.app/",
+    title: "Writer Portfolio App",
+    description:
+      "A full-stack writer portfolio and content management platform with a rich-text editor, subscriber newsletter, image uploads, admin dashboard, and authentication — built and deployed to production.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "NextAuth", "Cloudinary", "Tailwind CSS", "Vercel"],
+    github: "https://github.com/quarshie133/prince-henry-portfolio-app",
+    demo: "https://prince-henry-portfolio-app.vercel.app/",
   },
-  {
-    id: 2,
-    image: IMG2,
-    title: "Kwame Gyan Ministries",
-    github: "https://github.com/quarshie133/kwame-gyan-ministries",
-    demo: "https://kwamegyan-ministries-b30716.netlify.app/",
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: "Netflix-Clone",
-    github: "https://github.com/quarshie133/Netflix-Clone",
-    demo: "https://react-netflix-clone-9f7bfd.netlify.app/login",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "React Shopping-Cart",
-    github: "https://github.com/quarshie133/react-shopping-cart",
-    demo: "https://react-shopping-cart-40ca3c.netlify.app/",
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: "Upward Bound Agency",
-    demo: "https://upwardboundagency.com/",
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: "ecommerce-product-page",
-    github:"https://github.com/quarshie133/Ecommerce-product-page",
-    demo: "https://ecommerce-product-page-77srcpsim-quarshie133.vercel.app/",
-  },
-  {
-    id: 7,
-    image: IMG7,
-    title: "News App - React Native",
-    github:"https://github.com/quarshie133/News-App-React-Native",
-    demo: "https://github.com/quarshie133/News-App-React-Native",
-  },
-];
-
-export const reviews = [
-  {
-    avatar: AVTR1,
-    name: "Mark Oppong",
-    review: "Working with you has been an absolute pleasure, Thank You",
-  },
-  {
-    avatar: AVTR2,
-    name: "Silas",
-    review: "Great experience working with you.",
-  },
-  {
-    avatar: AVTR3,
-    name: "Henry",
-    review:
-      "A wonderful experience was all the help I got from the team. Thanks.",
-  },
-  {
-    avatar: AVTR4,
-    name: "Frank",
-    review: "looking forward to working with you again.",
-  },
+  // Add your next project here:
+  // {
+  //   id: 2,
+  //   title: "Project Title",
+  //   description: "Short description of the project.",
+  //   tech: ["React", "Node.js"],
+  //   github: "https://github.com/...",
+  //   demo: "https://...",
+  // },
 ];
