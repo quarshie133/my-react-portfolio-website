@@ -100,7 +100,7 @@ const Header = () => {
                   <BsGithub size={18} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/prince-ephraim-quarshie/"
+                  href="https://www.linkedin.com/in/prince-e-quarshie/"
                   target="_blank"
                   rel="noreferrer"
                   className="p-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-400 hover:text-primary hover:bg-primary/10 hover:border-primary/20 transition-all duration-200"
