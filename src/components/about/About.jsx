@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaAward } from "react-icons/fa";
+import { FaAward, FaRobot, FaServer, FaChartBar } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
-import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiPrisma, SiPostgresql, SiGit, SiMongodb, SiExpress } from "react-icons/si";
+import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiNodedotjs, SiPrisma, SiPostgresql, SiGit, SiMongodb, SiExpress, SiCsharp, SiDotnet, SiPython, SiMysql, SiFlutter } from "react-icons/si";
 import { BsPhone } from "react-icons/bs";
 
 const stats = [
@@ -12,18 +12,46 @@ const stats = [
   { icon: <VscFolderLibrary className="text-primary text-2xl" />, label: "Projects", value: "40+" },
 ];
 
-const techStack = [
-  { icon: <SiReact />, label: "React", color: "text-cyan-400" },
-  { icon: <SiNextdotjs />, label: "Next.js", color: "text-white" },
-  { icon: <SiTypescript />, label: "TypeScript", color: "text-blue-400" },
-  { icon: <SiTailwindcss />, label: "Tailwind CSS", color: "text-sky-400" },
-  { icon: <BsPhone />, label: "React Native", color: "text-cyan-300" },
-  { icon: <SiNodedotjs />, label: "Node.js", color: "text-green-400" },
-  { icon: <SiExpress />, label: "Express.js", color: "text-slate-300" },
-  { icon: <SiMongodb />, label: "MongoDB", color: "text-green-500" },
-  { icon: <SiPrisma />, label: "Prisma", color: "text-teal-400" },
-  { icon: <SiPostgresql />, label: "PostgreSQL", color: "text-blue-300" },
-  { icon: <SiGit />, label: "Git", color: "text-orange-400" },
+const skillCategories = [
+  {
+    title: "Frontend & Mobile",
+    skills: [
+      { icon: <SiReact />, label: "React", color: "text-cyan-400" },
+      { icon: <SiNextdotjs />, label: "Next.js", color: "text-white" },
+      { icon: <BsPhone />, label: "React Native", color: "text-cyan-300" },
+      { icon: <SiFlutter />, label: "Flutter", color: "text-sky-400" },
+      { icon: <SiTailwindcss />, label: "Tailwind CSS", color: "text-sky-400" },
+    ]
+  },
+  {
+    title: "Backend & Database",
+    skills: [
+      { icon: <SiNodedotjs />, label: "Node.js", color: "text-green-400" },
+      { icon: <SiExpress />, label: "Express.js", color: "text-slate-300" },
+      { icon: <SiCsharp />, label: "C#", color: "text-purple-400" },
+      { icon: <SiDotnet />, label: "ASP.NET MVC", color: "text-blue-500" },
+      { icon: <SiPostgresql />, label: "PostgreSQL", color: "text-blue-300" },
+      { icon: <SiMongodb />, label: "MongoDB", color: "text-green-500" },
+      { icon: <SiMysql />, label: "SQL", color: "text-orange-400" },
+      { icon: <SiPrisma />, label: "Prisma", color: "text-teal-400" },
+    ]
+  },
+  {
+    title: "Data & ML",
+    skills: [
+      { icon: <SiPython />, label: "Python", color: "text-yellow-300" },
+      { icon: <FaRobot />, label: "Machine Learning (foundations)", color: "text-indigo-400" },
+      { icon: <FaChartBar />, label: "Data", color: "text-emerald-400" },
+    ]
+  },
+  {
+    title: "Architecture & Tools",
+    skills: [
+      { icon: <SiTypescript />, label: "TypeScript", color: "text-blue-400" },
+      { icon: <FaServer />, label: "RESTful APIs", color: "text-gray-300" },
+      { icon: <SiGit />, label: "Git", color: "text-orange-500" },
+    ]
+  }
 ];
 
 const containerVariants = {
@@ -66,28 +94,28 @@ const About = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="glass-card p-8"
+            className="flex flex-col gap-6"
           >
-            <h3 className="text-sm font-semibold text-slate-400 uppercase tracking-widest mb-6">
-              Tech Stack
-            </h3>
-            <div className="grid grid-cols-2 gap-3">
-              {techStack.map(({ icon, label, color }, i) => (
-                <motion.div
-                  key={label}
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.4, delay: i * 0.07 }}
-                  className="flex items-center gap-3 p-3 rounded-xl bg-white/5 border border-white/5 hover:border-primary/20 hover:bg-primary/5 transition-all duration-200 group"
-                >
-                  <span className={`text-xl ${color} group-hover:scale-110 transition-transform duration-200`}>
-                    {icon}
-                  </span>
-                  <span className="text-sm font-medium text-slate-300">{label}</span>
-                </motion.div>
-              ))}
-            </div>
+            {skillCategories.map((category) => (
+              <div key={category.title} className="glass-card p-6">
+                <h3 className="text-xs font-semibold text-slate-400 uppercase tracking-widest mb-4">
+                  {category.title}
+                </h3>
+                <div className="flex flex-wrap gap-2.5">
+                  {category.skills.map(({ icon, label, color }) => (
+                    <div
+                      key={label}
+                      className="flex items-center gap-2 px-3 py-2 rounded-lg bg-white/5 border border-white/5 hover:border-primary/20 hover:bg-primary/5 transition-all duration-200 group cursor-default"
+                    >
+                      <span className={`text-base ${color} group-hover:scale-110 transition-transform duration-200`}>
+                        {icon}
+                      </span>
+                      <span className="text-xs font-medium text-slate-300">{label}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </motion.div>
 
           {/* Right: Content */}
