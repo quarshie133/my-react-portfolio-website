@@ -9,13 +9,20 @@ export const projects = [
     github: "https://github.com/quarshie133/prince-henry-portfolio-app",
     demo: "https://prince-henry-portfolio-app.vercel.app/",
   },
-  // Add your next project here:
-  // {
-  //   id: 2,
-  //   title: "Project Title",
-  //   description: "Short description of the project.",
-  //   tech: ["React", "Node.js"],
-  //   github: "https://github.com/...",
-  //   demo: "https://...",
-  // },
+  {
+    id: 2,
+    title: "GigPlug Mobile App",
+    description: "A comprehensive React Native MVP marketplace app connecting musicians with gig organizers, featuring role-based navigation, searchable feeds, and direct gig applications.",
+    tech: ["React Native", "Expo", "TypeScript", "NativeWind", "Zustand"],
+    github: "https://github.com/quarshie133/gigplug",
+    demo: "",
+  },
+  {
+    id: 3,
+    title: "GH-Market E-commerce Architecture",
+    description: "A dual-app e-commerce platform featuring a modern Vendor Dashboard and conversion-focused Customer Storefront, designed for future Python backend integration, with smooth payment flows.",
+    tech: ["React", "Vite", "Tailwind CSS", "Material UI", "Framer Motion", "Zustand"],
+    github: "https://github.com/quarshie133/ghana_market",
+    demo: "",
+  },
 ];
