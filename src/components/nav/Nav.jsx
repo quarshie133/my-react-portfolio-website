@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FiMenu, FiX } from "react-icons/fi";
-import CV from "../../assets/Prince_Ephraim_Quarshie_CV.pdf";
+import CV from "../../assets/Prince-Ephraim-Quarshie-CV.pdf";
 
 const navLinks = [
   { label: "Home", href: "#home" },
