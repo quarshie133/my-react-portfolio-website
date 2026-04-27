@@ -23,6 +23,6 @@ export const projects = [
     description: "A dual-app e-commerce platform featuring a modern Vendor Dashboard and conversion-focused Customer Storefront, designed for future Python backend integration, with smooth payment flows.",
     tech: ["React", "Vite", "Tailwind CSS", "Material UI", "Framer Motion", "Zustand"],
     github: "https://github.com/quarshie133/ghana_market",
-    demo: "",
+    demo: "https://market.tlpcialc.pw/#",
   },
 ];
