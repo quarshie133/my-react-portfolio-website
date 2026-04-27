@@ -25,4 +25,12 @@ export const projects = [
     github: "https://github.com/quarshie133/ghana_market",
     demo: "https://market.tlpcialc.pw/#",
   },
+  {
+    id: 4,
+    title: "Perazim Bible Institute Platform",
+    description: "A modern, beautifully designed web platform serving as the digital front door for the Perazim Bible Institute, providing information on comprehensive theological education, faculty details, and a streamlined registration process.",
+    tech: ["Next.js", "React", "Tailwind CSS", "Framer Motion"],
+    github: "https://github.com/quarshie133/perazim",
+    demo: "https://perazim.netlify.app/",
+  },
 ];
