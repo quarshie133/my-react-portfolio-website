@@ -33,12 +33,12 @@ export const projects = [
     github: "https://github.com/quarshie133/perazim",
     demo: "https://perazim.netlify.app/",
   },
-  // {
-  //   id: 5,
-  //   title: "LVwebS Platform",
-  //   description: "A premium web platform for Love Vibe Studios, showcasing their music production services, portfolio, and booking system with a sleek UI and optimized performance.",
-  //   tech: ["React", "Vite", "Tailwind CSS", "Framer Motion", "Node.js", "Express", "MongoDB"],
-  //   github: "https://github.com/quarshie133/lvwebs",
-  //   demo: "https://lvwebs.example.com/",
-  // },
+  {
+    id: 5,
+    title: "Love Vibe Studio Platform",
+    description: "A full-stack relationship counseling web platform for Love Vibe Studio, featuring expert-led online courses (pre-marital, post-marital, crisis management & more), a custom course enrollment system with Paystack payment integration, a discovery call booking flow, client testimonials, a founder profile, and a secure admin dashboard for managing enrollments and enquiries.",
+    tech: ["Next.js", "React", "Tailwind CSS", "Framer Motion", "PostgreSQL", "Paystack", "Vercel"],
+    github: "https://github.com/quarshie133/Love_vibe_studios",
+    demo: "https://www.lovevibestudio.com/",
+  },
 ];
